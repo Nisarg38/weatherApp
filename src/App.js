@@ -25,6 +25,8 @@ font-size: 20px;
 font-weight: bold;
 `;
 
+
+
 function App() {
   const [city, updatecity] = useState();
   const [weather, updateweather] = useState();
@@ -43,6 +45,7 @@ function App() {
       weather ? <WeatherComponent weather={weather}/> 
       : <CityComponent updatecity={updatecity} fetchWeather={fetchWeather}/>
     }
+    
   </Container>
 
 }

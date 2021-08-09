@@ -44,6 +44,8 @@ margin: 20px auto
 }
 `
 
+
+
 const CityComponent = (props) => {
     const {updatecity, fetchWeather} = props;
 
@@ -56,6 +58,7 @@ const CityComponent = (props) => {
             />
             <button type="submit">Search</button>
         </SearchBox>
+        <img src="/images/repo.gif" alt="" height="80px" widht="80px"/>
         </>
     );
 };
