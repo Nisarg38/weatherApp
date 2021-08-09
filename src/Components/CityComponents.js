@@ -51,14 +51,14 @@ const CityComponent = (props) => {
 
     return(
         <>
-        <WeatherLogo src="/icons/perfect-day.svg"/>
+        <WeatherLogo src="weatherApp/icons/perfect-day.svg"/>
         <ChooseCityLabel>Find Weather of the City</ChooseCityLabel>
         <SearchBox onSubmit={fetchWeather}>
             <input placeholder="City" onChange={(e)=> updatecity(e.target.value)}
             />
             <button type="submit">Search</button>
         </SearchBox>
-        <img src="/images/repo.gif" alt="" height="80px" widht="80px"/>
+        <img src="weatherApp/images/repo.gif" alt="" height="80px" widht="80px"/>
         </>
     );
 };
