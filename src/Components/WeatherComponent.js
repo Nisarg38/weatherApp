@@ -4,7 +4,7 @@ export const WeatherInfoIcons = {
     sunset: "/icons/temp.svg",
     sunrise: "/icons/temp.svg",
     humidity: "/icons/humidity.svg",
-    wind: "/icons/wind.svg",
+    wind: "/images/wind.svg",
     pressure: "/icons/pressure.svg",
 };
 
@@ -71,7 +71,7 @@ const InfoContainer = styled.div`
 const InfoIcon = styled.img`
   width: 36px;
   height: 36px;
-  color:white;
+  background-color:white;
 `;
 const InfoLabel = styled.span`
   display: flex;
