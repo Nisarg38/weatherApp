@@ -1,11 +1,17 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import Sunrise from "../icons/temp.svg";
+import Sunset from "../icons/temp.svg";
+import Humidty from "../icons/humidity.svg";
+import Wind from "../icons/wind.svg";
+import Pressure from "../icons/pressure.svg";
+
 
 export const WeatherInfoIcons = {
-    sunset: "/icons/temp.svg",
-    sunrise: "/icons/temp.svg",
-    humidity: "/icons/humidity.svg",
-    wind: "/images/wind.svg",
-    pressure: "/icons/pressure.svg",
+    Sunset:   {Sunset},
+    Sunrise:  {Sunrise},
+    Humidity: {Humidty},
+    Wind:     {Wind},
+    Pressure: {Pressure},
 };
 
 const WeatherCondition = styled.div`
@@ -71,7 +77,7 @@ const InfoContainer = styled.div`
 const InfoIcon = styled.img`
   width: 36px;
   height: 36px;
-  background-color:white;
+
 `;
 const InfoLabel = styled.span`
   display: flex;

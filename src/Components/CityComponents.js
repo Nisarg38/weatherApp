@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import img from '../icons/perfect-day.svg';
 
 const WeatherLogo = styled.img`
 width: 140px;
@@ -51,14 +51,13 @@ const CityComponent = (props) => {
 
     return(
         <>
-        <WeatherLogo src="https://github.com/Nisarg38/weatherApp/blob/main/public/icons/perfect-day.svg"/>
+        <WeatherLogo src={img}/>
         <ChooseCityLabel>Find Weather of the City</ChooseCityLabel>
         <SearchBox onSubmit={fetchWeather}>
             <input placeholder="City" onChange={(e)=> updatecity(e.target.value)}
             />
             <button type="submit">Search</button>
         </SearchBox>
-        <img src="https://github.com/Nisarg38/weatherApp/blob/main/public/images/repo.gif" alt="" height="80px" widht="80px"/>
         </>
     );
 };
