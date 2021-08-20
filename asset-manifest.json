@@ -1,20 +1,25 @@
 {
   "files": {
     "main.css": "/weatherApp/static/css/main.34f42171.chunk.css",
-    "main.js": "/weatherApp/static/js/main.f7353eb3.chunk.js",
-    "main.js.map": "/weatherApp/static/js/main.f7353eb3.chunk.js.map",
+    "main.js": "/weatherApp/static/js/main.d592bb33.chunk.js",
+    "main.js.map": "/weatherApp/static/js/main.d592bb33.chunk.js.map",
     "runtime-main.js": "/weatherApp/static/js/runtime-main.2765463a.js",
     "runtime-main.js.map": "/weatherApp/static/js/runtime-main.2765463a.js.map",
     "static/js/2.61be080b.chunk.js": "/weatherApp/static/js/2.61be080b.chunk.js",
     "static/js/2.61be080b.chunk.js.map": "/weatherApp/static/js/2.61be080b.chunk.js.map",
     "index.html": "/weatherApp/index.html",
     "static/css/main.34f42171.chunk.css.map": "/weatherApp/static/css/main.34f42171.chunk.css.map",
-    "static/js/2.61be080b.chunk.js.LICENSE.txt": "/weatherApp/static/js/2.61be080b.chunk.js.LICENSE.txt"
+    "static/js/2.61be080b.chunk.js.LICENSE.txt": "/weatherApp/static/js/2.61be080b.chunk.js.LICENSE.txt",
+    "static/media/humidity.38d0c2ff.svg": "/weatherApp/static/media/humidity.38d0c2ff.svg",
+    "static/media/perfect-day.5156c281.svg": "/weatherApp/static/media/perfect-day.5156c281.svg",
+    "static/media/pressure.37f0a961.svg": "/weatherApp/static/media/pressure.37f0a961.svg",
+    "static/media/temp.aa236718.svg": "/weatherApp/static/media/temp.aa236718.svg",
+    "static/media/wind.903e99b7.svg": "/weatherApp/static/media/wind.903e99b7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2765463a.js",
     "static/js/2.61be080b.chunk.js",
     "static/css/main.34f42171.chunk.css",
-    "static/js/main.f7353eb3.chunk.js"
+    "static/js/main.d592bb33.chunk.js"
   ]
 }
